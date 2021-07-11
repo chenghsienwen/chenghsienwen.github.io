@@ -1,65 +1,75 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Chenghsien Wen's Profile</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+	<title>Chenghsien Wen's Profile</title>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section data-markdown="mdoc-docs/cover.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-				<section data-markdown="mdoc-docs/agenda.md" style="text-align: left" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-				<section data-auto-animate>
-					<h2>About me</h2>
-					<div class="r-hstack">
-						<p >
-						<section style="width:50%;" data-markdown="mdoc-docs/about-me-left.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n">
-							</section>
-						</p>
-						<p >
-							<section style="font-size:80%;" data-markdown="mdoc-docs/about-me-right.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n">
-							</section>
-						</p>
-					</div>
-				</section>
-				<section data-markdown="mdoc-docs/skillset.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n">
-				</section>
-				<section style="target=_blank;" data-markdown="mdoc-docs/critical-project.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
-				<section data-markdown="mdoc-docs/learning-on-latest-technology.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n">
-				</section>
-				<section style="text-align: center;">
-					<h1>THE END</h1>
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-markdown="mdoc-docs/cover.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n">
+			</section>
+			<section data-markdown="mdoc-docs/agenda.md" style="text-align: left" data-separator="^\n\n\n"
+				data-separator-vertical="^\n\n"></section>
+			<section data-auto-animate>
+				<h2>About me</h2>
+				<div class="r-hstack">
 					<p>
-						- <a href="https://www.linkedin.com/in/chenghsien-wen-6380584a/" target="_blank">Linkedin</a> <br>
-						- <a href="https://github.com/chenghsienwen" target="_blank">Github</a>
+					<section style="width:50%;" data-markdown="mdoc-docs/about-me-left.md" data-separator="^\n\n\n"
+						data-separator-vertical="^\n\n">
+					</section>
 					</p>
-				</section>
-			</div>
+					<p>
+					<section style="font-size:80%;" data-markdown="mdoc-docs/about-me-right.md" data-separator="^\n\n\n"
+						data-separator-vertical="^\n\n">
+					</section>
+					</p>
+				</div>
+			</section>
+			<section data-markdown="mdoc-docs/skillset.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n">
+			</section>
+			<section style="target=_blank;" data-markdown="mdoc-docs/critical-project.md" data-separator="^\n\n\n"
+				data-separator-vertical="^\n\n"></section>
+			<section data-markdown="mdoc-docs/learning-on-latest-technology.md" data-separator="^\n\n\n"
+				data-separator-vertical="^\n\n">
+			</section>
+			<section style="text-align: center;">
+				<h1>THE END</h1>
+				<p>
+					- <a href="https://www.linkedin.com/in/chenghsien-wen-6380584a/" target="_blank">Linkedin</a> <br>
+					- <a href="https://github.com/chenghsienwen" target="_blank">Github</a>
+				</p>
+			</section>
 		</div>
+	</div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
-				slideNumber: 'c/t',
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/search/search.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+			slideNumber: 'c/t',
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealSearch]
+		});
+	</script>
+</body>
+
 </html>
