@@ -49,7 +49,7 @@
 
 
 #### POC of performance: postgres vs clickhouse
-- 3 million rows of data(one month)
+- 3 million rows of data(one month) in aws s3
 - import to postgres and clickhouse
 - simple query and compare
 ```
