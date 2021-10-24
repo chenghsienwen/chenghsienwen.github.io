@@ -3,6 +3,12 @@
 
 
 
+### About me
+![after refinement](mdoc-docs/resources/chenghsienwen_at_vpon.jpeg)
+<!-- .element: style="width:100%;"  -->
+
+
+
 ### annual tasks review
 - features
 - support colleagues
@@ -46,3 +52,70 @@
     - cypress application for UI automation[project](https://git.vpon.com/chenghsien.wen/dsp-web-robot-tool)<!-- .element: target="_blank" -->
     - [scala cats](https://chenghsienwen.github.io/scala-cat-execise-docs)<!-- .element: target="_blank" -->
     - [Functional programming in python](https://docs.google.com/document/d/1BGw_iQ3zs9iZkpSKzNLe9sAFMFnDAlL8YXyQKXqyPrk/edit?usp=sharing)<!-- .element: target="_blank" -->
+
+
+
+### key contributions
+ - features: on schedule and also keep code quality<!-- .element: class="fragment" data-fragment-index="1" -->
+- support colleagues: make all flow to be more smooth and keep a positive atmosphere on co-work<!-- .element: class="fragment" data-fragment-index="2" -->
+- development refinements: remove technical pain points for further development or testing<!-- .element: class="fragment" data-fragment-index="3" -->
+- research & poc: make a easily and reproducible know how and sandbox to furhter real case<!-- .element: class="fragment" data-fragment-index="4" -->
+
+
+####  example 1 of refinement
+- improve TESTING time on CI
+- spark is a key conpoment in **report-stramer** project, however, feature tests are not complete for this project
+- it would take over *10 minutes* just for few test cases
+
+
+- before refinement 
+![before refinement](mdoc-docs/resources/development_example1_1.png)
+<!-- .element: style="width:100%;"  -->
+
+
+- after refinement
+![after refinement](mdoc-docs/resources/development_example1_2.png)
+<!-- .element: style="width:100%;"  -->
+
+
+#### example 2 of refinement
+- system integration test to be easier
+- if members want to test new feature on bidding, they need to
+    - request ad
+    - send trackers for accumulating cost and revenue
+    - check web console for result
+
+
+- before
+    - members may need to install development env,
+        - ex: [protobuf compile tool](https://developers.google.com/protocol-buffers/)<!-- .element: target="_blank" --> for encode/decode
+    - send trackers events from ad response
+        - parse ad response manually then send URL
+    - it would take **many times** to do the same things in UAT
+
+
+- after
+    - online tool for rescue: above tedious things can be avoided in one concole, one click
+    - [ad-test-tracker-service](http://ad-test.vpon.com/swagger-docs)<!-- .element: target="_blank" -->
+![after refinement](mdoc-docs/resources/UAT_tool.jpeg)
+<!-- .element: style="width:100%;"  -->
+
+
+#### example 3 of refinement
+- rebuild native application pipeline
+- there was a [native binary tool](https://git.vpon.com/anibal.yeh/segtool)<!-- .element: target="_blank" --> for segments import
+
+- before
+    - tool built on Microsoft .Net ecosystem, that is not compatible with others pipeline
+
+- after
+    - build pipeline align with current pipeline on jenkins
+    - [release template](https://github.com/chenghsienwen/quickstart-scala-sbt-native-image.g8 )<!-- .element: target="_blank" --> for future development
+
+
+**every refinement/technical debt is small, but accumulation would be far reaching**
+
+
+
+## Nobody is perfect, but a Team can be
+quotes from: [remember the titans](https://en.wikipedia.org/wiki/Remember_the_Titans)<!-- .element: target="_blank" -->
