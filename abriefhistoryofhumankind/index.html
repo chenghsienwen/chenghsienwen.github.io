@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>aBriefHistoryOfHumankind Presentation</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/moon.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown="mdoc-docs/cover.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+				<section data-auto-animate>
+					<h2>哈拉瑞 Yuval Noah Harari</h2>
+					<div class="r-hstack">
+						<p>
+						<section data-markdown="mdoc-docs/about-left.md" data-separator="^\n\n\n"
+							data-separator-vertical="^\n\n">
+						</section>
+						</p>
+						<p>
+						<section data-markdown="mdoc-docs/about-right.md" data-separator="^\n\n\n"
+							data-separator-vertical="^\n\n">
+						</section>
+						</p>
+					</div>
+				</section>
+				<section data-markdown="mdoc-docs/content.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				slideNumber: 'c/t',
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
