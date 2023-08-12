@@ -1,9 +1,6 @@
-# Agenda
-### About me
-### Distributed system cases study in vpon
-- System design
-- legacy refinements
-- Issue fix
-- Tools and dev flow refinements
-
-### Personal Reference
+## Index
+- About me
+- Skill set
+- Ad domain
+- Case study in vpon
+- Personal reference

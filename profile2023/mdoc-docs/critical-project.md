@@ -1,7 +1,29 @@
-### Distributed system cases study in vpon
+### Ad domain: dsp
+![dsp ecosystem](mdoc-docs/resources/dsp_ecosystem.jpeg)
 
 
-### Work done items(2019~2023)
+### Ad domain: ad network
+![dsp ecosystem](mdoc-docs/resources/ad_network.jpeg)
+
+
+### Ad domain: programmatic buying
+![programmatic buying](mdoc-docs/resources/programmatic_ad.jpeg)
+
+
+
+### vpon dsp architecture
+![vpon dsp architecture](mdoc-docs/resources/vpon_dsp_architecture1.jpeg)
+
+
+### vpon dsp architecture: reporting
+![vpon dsp architecture](mdoc-docs/resources/vpon_dsp_architecture_reporting.jpeg)
+
+
+
+### Cases study in vpon
+
+
+### Work done items(2019 April ~ 2023 May)
 ```
 a. system design
   1. cpx& upx feature
@@ -36,15 +58,6 @@ d. tools and dev flow refinements
   2. ad-test-tracker-service(for UAT continence) 
   3. Report-streamer feature test refine spark testing time 
 ```
-
-
-
-### vpon dsp architecture: bidding
-![vpon dsp architecture](mdoc-docs/resources/vpon_dsp_architecture1.jpeg)
-
-
-### vpon dsp architecture: reporting
-![vpon dsp architecture](mdoc-docs/resources/vpon_dsp_architecture_reporting.jpeg)
 
 
 
@@ -107,7 +120,7 @@ d. tools and dev flow refinements
 <!-- .element: style="width:85%;"  -->
 
 
-### detail level design
+### streamming services flow
 ![upx-streamming](mdoc-docs/resources/universal_pixel_v9-validator_aggregator_transfomer.drawio.png)
 <!-- .element: style="width:100%;"  -->
 
@@ -150,7 +163,7 @@ d. tools and dev flow refinements
 - ad-test-tracker for PM use
 - k6 for performance, stress test
 - csv to json, protobuf convert
-- make project templates
+-  optimize test time in CI flow 
 
 
 
